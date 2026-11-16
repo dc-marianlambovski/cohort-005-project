@@ -1,6 +1,6 @@
 # Hosted in-app notification providers for Cadence
 
-**Checked:** 2026-11-16. **Research:** [issue #8](https://github.com/dc-marianlambovski/cohort-005-project/issues/8); **feature context:** [map #6](https://github.com/dc-marianlambovski/cohort-005-project/issues/6).
+**Checked:** 2026-11-16. **Research:** [Compare hosted notification providers](https://github.com/dc-marianlambovski/cohort-005-project/issues/8); **feature context:** [In-app Notifications: Feature Spec](https://github.com/dc-marianlambovski/cohort-005-project/issues/6).
 
 ## Summary and shortlist
 
@@ -48,7 +48,7 @@ Pricing below is USD, as published on the checked date, and may change. The revi
 
 ## Decision inputs and prototype checks
 
-1. Define notification events, recipients and fan-out, read/archive behavior, retention and deletion, failure handling, and access boundaries before evaluating cost or selecting a provider ([feature map](https://github.com/dc-marianlambovski/cohort-005-project/issues/6)).
+1. Define notification events, recipients and fan-out, read/archive behavior, retention and deletion, failure handling, and access boundaries before evaluating cost or selecting a provider ([In-app Notifications: Feature Spec](https://github.com/dc-marianlambovski/cohort-005-project/issues/6)).
 2. Estimate production **and test** volume using each provider's billing unit; confirm free-plan overages, retention, rate limits, and branding constraints against current terms.
 3. Exercise React Router SSR/hydration, local development and real-time delivery. Switch DevUI users and verify no cross-user leakage, including old tabs and expired credentials. Verify links, state synchronization, retries, and actual retention against the eventual spec.
 4. Keep secrets server-side and use the authenticated Cadence session as the source of provider identity. Validate user and course/team authorization independently of the inbox UI.
