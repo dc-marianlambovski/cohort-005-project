@@ -22,6 +22,12 @@ _Avoid_: Admin (on its own), the team, Staff
 A Student who buys and manages a Team Licence. A Team Admin has no say over Refund Requests.
 _Avoid_: Admin (on its own)
 
+### Notifications
+
+**Notification**:
+A message about an event or update in Cadence, shown to one recipient in their in-app feed.
+_Avoid_: Alert, Message, Activity
+
 ### Enrollment
 
 **Enrollment**:
