@@ -31,6 +31,12 @@ _Avoid_: Admin (on its own)
 A message about an event or update in Cadence, shown to one recipient in their in-app feed.
 _Avoid_: Alert, Message, Activity
 
+**Read Notification**:
+A Notification that its recipient has marked as read.
+
+**Unread Notification**:
+A Notification that its recipient has not marked as read, or has marked unread again.
+
 ### Enrollment
 
 **Enrollment**:
