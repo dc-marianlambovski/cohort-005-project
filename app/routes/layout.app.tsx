@@ -246,7 +246,7 @@ export default function AppLayout({ loaderData }: Route.ComponentProps) {
         {import.meta.env.DEV &&
           pathname === "/courses" &&
           (variant === "A" || variant === "B" || variant === "C") && (
-            <NotificationPrototype variant={variant} />
+            <NotificationPrototype key={variant} variant={variant} />
           )}
         <Outlet />
       </main>
