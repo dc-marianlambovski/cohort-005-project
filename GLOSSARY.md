@@ -11,8 +11,11 @@ Someone who takes courses on Cadence.
 _Avoid_: Learner, User
 
 **Instructor**:
-A person who builds and owns courses, and sees the Students enrolled on them.
+A person who builds courses and sees the Students enrolled on courses they own.
 _Avoid_: Teacher, Author, Creator
+
+**Course Owner**:
+The person who owns a course and is accountable for its content. A course may be owned by an Instructor or a Platform Admin.
 
 **Platform Admin**:
 A member of Cadence staff who runs the platform. Only a Platform Admin decides Refund Requests.
